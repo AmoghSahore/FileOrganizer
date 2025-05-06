@@ -1,22 +1,23 @@
 🗂️ FileOrganizer
+
 This is a simple Python script that organizes files in a folder into categorized subfolders based on file types. It's useful for quickly cleaning up messy directories like Downloads, Desktop, or project folders.
 
 🔧 Features
 Automatically sorts files into categories like:
 
-Images
+- Images
 
-Videos
+- Videos
 
-Documents
+- Documents
 
-Music
+- Music
 
-Code
+- Code
 
-Installers
+- Installers
 
-Others
+- Others
 
 Easily customizable
 
@@ -29,8 +30,10 @@ git clone https://github.com/yourusername/file-organizer.git
 
 Or download the ZIP and extract it.
 
+
 2. Choose a Folder to Organize
 Decide which folder you want the script to organize (e.g., your Downloads folder).
+
 
 3. Set the Folder Path in the Script
 Open the script file (organizer.py) in any text editor (Notepad, VS Code, etc.), and edit this line:
@@ -45,24 +48,12 @@ Use double backslashes (\) in Windows paths OR prefix the string with r (as show
 
 Make sure the folder path is correct and accessible.
 
+
 4. Run the Script
-You can run the script in one of two ways:
+You can run the script as follows:
 
-Option A: From Terminal / Command Prompt
+From Terminal / Command Prompt
 python organizer.py
-
-Option B: Double-click using a .bat file
-
-You can create a simple .bat file to run the script with a double-click. Here's how:
-
-Open Notepad
-
-Paste the following line:
-python path\to\organizer.py
-
-Save it as run_organizer.bat in the same folder.
-
-Double-click it to run.
 
 Make sure Python is added to your system PATH.
 
